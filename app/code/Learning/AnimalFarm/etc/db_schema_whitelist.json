@@ -1,0 +1,13 @@
+{
+    "animal_farm": {
+        "column": {
+            "id": true,
+            "name": true,
+            "description": true,
+            "information": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

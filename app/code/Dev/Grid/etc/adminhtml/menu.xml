@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Dev_Grid::home" title="Learning" module="Dev_Grid" sortOrder="1" resource="Magento_Catalog::categories"/>
+        <add id="Dev_Grid::child" title="Category Test" parent="Dev_Grid::home" module="Dev_Grid" sortOrder="1" resource="Magento_Catalog::categories" action="dev/test/test"/>
+        <add id="Dev_Grid::child2" title="Category Listing" parent="Dev_Grid::home" module="Dev_Grid" sortOrder="2" resource="Magento_Catalog::categories" action="dev_grid/index/index"/>
+    </menu>
+</config>

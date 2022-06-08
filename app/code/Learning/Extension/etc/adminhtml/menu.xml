@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Learning_Extension::view" title="Magecomp" module="Learning_Extension" sortOrder="50" resource="Learning_Extension::view"/>
+        <add id="Learning_Extension::menu" title="Manage Grid" module="Learning_Extension" sortOrder="20" parent="Learning_Extension::view" action="uiexample/index/index" resource="Learning_Extension::menu"/>
+    </menu>
+</config>
