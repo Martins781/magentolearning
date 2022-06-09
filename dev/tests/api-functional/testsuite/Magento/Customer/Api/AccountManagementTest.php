@@ -697,7 +697,7 @@ class AccountManagementTest extends WebapiAbstract
         $fixtureAddressAttributeCode = 'address_user_attribute';
         //customer attribute code from fixture
         $fixtureCustomerAttributeCode = 'user_attribute';
-        //Custom Attribute Values
+        //Question Attribute Values
         $address1CustomAttributeValue = 'value1';
         $address2CustomAttributeValue = 'value2';
         $customerCustomAttributeValue = 'value3';

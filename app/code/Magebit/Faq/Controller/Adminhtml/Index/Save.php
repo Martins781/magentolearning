@@ -4,16 +4,16 @@ namespace Magebit\Faq\Controller\Adminhtml\Index;
 
 class Save extends \Magento\Backend\App\Action
 {
-    protected $customFactory;
+    protected $questionFactory;
     protected $adapterFactory;
     protected $uploader;
 
     public function __construct(
         \Magento\Backend\App\Action\Context $context,
-        \Magebit\Faq\Model\CustomFactory $customFactory
+        \Magebit\Faq\Model\QuestionFactory $questionFactory
     ) {
         parent::__construct($context);
-        $this->customFactory = $customFactory;
+        $this->questionFactory = $questionFactory;
     }
     public function execute()
     {
@@ -21,9 +21,9 @@ class Save extends \Magento\Backend\App\Action
 
         try {
             if (isset($data['id'])) {
-                $model = $this->customFactory->create()->load($data['id']);
+                $model = $this->questionFactory->create()->load($data['id']);
             } else {
-                $model = $this->customFactory->create();
+                $model = $this->questionFactory->create();
             }
 
             $model->addData([

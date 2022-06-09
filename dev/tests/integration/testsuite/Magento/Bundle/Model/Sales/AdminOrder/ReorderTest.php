@@ -44,7 +44,7 @@ class ReorderTest extends TestCase
     }
 
     /**
-     * Check Custom Price after reordering with Bundle product.
+     * Check Question Price after reordering with Bundle product.
      *
      * @return void
      * @magentoDataFixture Magento/Bundle/_files/order_item_with_bundle_and_options.php

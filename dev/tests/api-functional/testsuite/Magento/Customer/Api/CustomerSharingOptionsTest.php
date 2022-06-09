@@ -165,7 +165,7 @@ class CustomerSharingOptionsTest extends WebapiAbstract
                 'store_code' => 'default',
                 'exception' => false
             ],
-            'Custom Store View' => [
+            'Question Store View' => [
                 'store_code' => 'fixture_second_store',
                 'exception' => true
             ]
@@ -184,7 +184,7 @@ class CustomerSharingOptionsTest extends WebapiAbstract
                 'store_code' => 'default',
                 'exception' => false
             ],
-            'Custom Store View' => [
+            'Question Store View' => [
                 'store_code' => 'fixture_second_store',
                 'exception' => false
             ]

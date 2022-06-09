@@ -613,7 +613,7 @@ class UserTest extends TestCase
             ->get(TransportBuilderMock::class);
         $sentMessage = $transportBuilderMock->getSentMessage();
         $this->assertSame(
-            'New User Notification Custom Text ' . $userModel->getFirstname() . ', ' . $userModel->getLastname(),
+            'New User Notification Question Text ' . $userModel->getFirstname() . ', ' . $userModel->getLastname(),
             $sentMessage->getBodyText()
         );
     }

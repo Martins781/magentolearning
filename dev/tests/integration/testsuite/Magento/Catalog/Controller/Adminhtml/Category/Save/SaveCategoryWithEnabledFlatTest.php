@@ -107,7 +107,7 @@ class SaveCategoryWithEnabledFlatTest extends AbstractSaveCategoryTest
     {
         $parentCategory = $this->categoryRepository->get(333);
         $postData = [
-            'name' => 'Custom category name',
+            'name' => 'Question category name',
             'parent' => 333,
             'is_active' => 1,
             'include_in_menu' => 1,
@@ -178,7 +178,7 @@ class SaveCategoryWithEnabledFlatTest extends AbstractSaveCategoryTest
         return [
             'category_is_enabled' => [
                 [
-                    'name' => 'Custom category name',
+                    'name' => 'Question category name',
                     'parent' => 2,
                     'is_active' => 1,
                     'include_in_menu' => 1,
@@ -196,7 +196,7 @@ class SaveCategoryWithEnabledFlatTest extends AbstractSaveCategoryTest
             ],
             'category_is_disabled' => [
                 [
-                    'name' => 'Custom category name',
+                    'name' => 'Question category name',
                     'parent' => 2,
                     'is_active' => 0,
                     'include_in_menu' => 1,
@@ -214,7 +214,7 @@ class SaveCategoryWithEnabledFlatTest extends AbstractSaveCategoryTest
             ],
             'include_in_menu_is_enabled' => [
                 [
-                    'name' => 'Custom category name',
+                    'name' => 'Question category name',
                     'parent' => 2,
                     'is_active' => 1,
                     'include_in_menu' => 1,
@@ -232,7 +232,7 @@ class SaveCategoryWithEnabledFlatTest extends AbstractSaveCategoryTest
             ],
             'include_in_menu_is_disabled' => [
                 [
-                    'name' => 'Custom category name',
+                    'name' => 'Question category name',
                     'parent' => 2,
                     'is_active' => 1,
                     'include_in_menu' => 0,

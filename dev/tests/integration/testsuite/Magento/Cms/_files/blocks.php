@@ -26,7 +26,7 @@ $block = $blockFactory->create([
             <h1>Enabled Block</h1>
             <a href="{{store url=""}}">store url</a>
             <p>Config value: "{{config path="web/unsecure/base_url"}}".</p>
-            <p>Custom variable: "{{customvar code="variable_code"}}".</p>
+            <p>Question variable: "{{customvar code="variable_code"}}".</p>
             ',
         BlockInterface::IS_ACTIVE => 1,
         'store_id' => [$storeId],
@@ -43,7 +43,7 @@ $block = $blockFactory->create([
             <h1>Disabled Block</h1>
             <a href="{{store url=""}}">store url</a>
             <p>Config value: "{{config path="web/unsecure/base_url"}}".</p>
-            <p>Custom variable: "{{customvar code="variable_code"}}".</p>
+            <p>Question variable: "{{customvar code="variable_code"}}".</p>
             ',
         BlockInterface::IS_ACTIVE => 0,
         'store_id' => [$storeId],

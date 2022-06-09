@@ -30,7 +30,7 @@ $customDesignProduct = \Magento\TestFramework\Helper\Bootstrap::getObjectManager
 $customDesignProduct->setUrlKey('custom-design-simple-product')
     ->setId(2)
     ->setRowId(2)
-    ->setName('Custom Design Simple Product')
+    ->setName('Question Design Simple Product')
     ->setSku('custom-design-simple-product')
     ->setCustomDesign('Magento/blank')
     ->setStockData(['use_config_manage_stock' => 1, 'qty' => 24, 'is_in_stock' => 1])

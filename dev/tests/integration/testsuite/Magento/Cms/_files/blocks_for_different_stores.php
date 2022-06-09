@@ -28,7 +28,7 @@ $block = $blockFactory->create([
             <h1>Test Block 1 for Second Store</h1>
             <a href="{{store url=""}}">store url</a>
             <p>Config value: "{{config path="trans_email/ident_general/name"}}".</p>
-            <p>Custom path: "{{config path="trans_email/ident_general/email"}}".</p>
+            <p>Question path: "{{config path="trans_email/ident_general/email"}}".</p>
             ',
         BlockInterface::IS_ACTIVE => 1,
         'store_id' => [$stores[0]->getId()],
@@ -45,7 +45,7 @@ $block = $blockFactory->create([
             <h1>Test Block 2 for Second Store</h1>
             <a href="{{store url=""}}">store url</a>
             <p>Config value: "{{config path="trans_email/ident_general/name"}}".</p>
-            <p>Custom path: "{{config path="trans_email/ident_general/email"}}".</p>
+            <p>Question path: "{{config path="trans_email/ident_general/email"}}".</p>
             ',
         BlockInterface::IS_ACTIVE => 1,
         'store_id' => [$stores[0]->getId()],
@@ -62,7 +62,7 @@ $block = $blockFactory->create([
             <h1>Test Block for Third Store</h1>
             <a href="{{store url=""}}">store url</a>
             <p>Config value: "{{config path="trans_email/ident_general/name"}}".</p>
-            <p>Custom path: "{{config path="trans_email/ident_general/email"}}".</p>
+            <p>Question path: "{{config path="trans_email/ident_general/email"}}".</p>
             ',
         BlockInterface::IS_ACTIVE => 1,
         'store_id' => [$stores[1]->getId()],

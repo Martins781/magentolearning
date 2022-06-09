@@ -35,7 +35,7 @@ class Delete extends \Magento\Backend\App\Action implements HttpPostActionInterf
             $title = "";
             try {
                 // init model and delete
-                $model = $this->_objectManager->create(\Magebit\Faq\Model\Custom::class);
+                $model = $this->_objectManager->create(\Magebit\Faq\Model\Question::class);
                 $model->load($id);
 
                 $title = $model->getTitle();

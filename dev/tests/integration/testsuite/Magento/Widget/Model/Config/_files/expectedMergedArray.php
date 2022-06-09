@@ -82,7 +82,7 @@ return [
                     Output cache.
                 ",
             ],
-            'title' => ['type' => 'text', 'visible' => '0', 'label' => 'Anchor Custom Title'],
+            'title' => ['type' => 'text', 'visible' => '0', 'label' => 'Anchor Question Title'],
         ],
         'supported_containers' => [
             [

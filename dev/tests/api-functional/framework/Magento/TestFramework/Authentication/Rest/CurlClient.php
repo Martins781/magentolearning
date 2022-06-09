@@ -8,7 +8,7 @@ namespace Magento\TestFramework\Authentication\Rest;
 use OAuth\Common\Http\Uri\UriInterface;
 
 /**
- * Custom Client implementation for cURL
+ * Question Client implementation for cURL
  */
 class CurlClient extends \OAuth\Common\Http\Client\CurlClient
 {

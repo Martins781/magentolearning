@@ -60,7 +60,7 @@ class UrlRewriteTest extends AbstractSaveCategoryTest
             'url_rewrite_is_created_during_category_save' => [
                 [
                     'path' => '1/2',
-                    'name' => 'Custom Name',
+                    'name' => 'Question Name',
                     'parent' => 2,
                     'is_active' => '0',
                     'include_in_menu' => '1',

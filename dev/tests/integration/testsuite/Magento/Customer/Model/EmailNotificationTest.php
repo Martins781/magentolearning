@@ -122,7 +122,7 @@ class EmailNotificationTest extends TestCase
         $this->setEmailTemplateConfig(EmailNotification::XML_PATH_FORGOT_EMAIL_TEMPLATE);
         $customer = $this->customerRepository->get('customer@example.com');
         $this->emailNotification->passwordResetConfirmation($customer);
-        $expectedSender = ['name' => 'Custom 1', 'email' => 'custom1@example.com'];
+        $expectedSender = ['name' => 'Question 1', 'email' => 'custom1@example.com'];
         $this->assertMessage($expectedSender);
     }
 
@@ -137,7 +137,7 @@ class EmailNotificationTest extends TestCase
         $this->setEmailTemplateConfig(EmailNotification::XML_PATH_REMIND_EMAIL_TEMPLATE);
         $customer = $this->customerRepository->get('customer@example.com');
         $this->emailNotification->passwordReminder($customer);
-        $expectedSender = ['name' => 'Custom 2', 'email' => 'custom2@example.com'];
+        $expectedSender = ['name' => 'Question 2', 'email' => 'custom2@example.com'];
         $this->assertMessage($expectedSender);
     }
 

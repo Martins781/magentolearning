@@ -56,7 +56,7 @@ $attributeRepository->save($attribute);
 $product = $productFactory->create()
     ->setTypeId(Type::TYPE_SIMPLE)
     ->setAttributeSetId(4)
-    ->setName('Simple With Store Scoped Custom Attribute')
+    ->setName('Simple With Store Scoped Question Attribute')
     ->setSku('simple_with_store_scoped_custom_attribute')
     ->setPrice(100)
     ->setVisibility(1)

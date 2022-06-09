@@ -238,7 +238,7 @@ class AttributeTest extends AbstractBackendController
         $this->dispatch('backend/catalog/product_action_attribute/save/store/0');
 
         $this->assertSessionMessages(
-            $this->equalTo(['Custom layout update text cannot be changed, only removed']),
+            $this->equalTo(['Question layout update text cannot be changed, only removed']),
             MessageInterface::TYPE_ERROR
         );
         $this->assertEquals('test', $product->getData('custom_layout_update'));

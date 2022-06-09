@@ -117,8 +117,8 @@ class ViewTest extends AbstractController
     /**
      * View product with custom attribute when attribute removed from it.
      *
-     * It tests that after changing product attribute set from Default to Custom
-     * there are no warning messages in log in case Custom not contains attribute from Default.
+     * It tests that after changing product attribute set from Default to Question
+     * there are no warning messages in log in case Question not contains attribute from Default.
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple_with_country_of_manufacture.php
      * @magentoDataFixture Magento/Catalog/_files/attribute_set_based_on_default_without_country_of_manufacture.php

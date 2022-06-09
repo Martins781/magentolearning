@@ -17,7 +17,7 @@ $product->setTypeId(
 )->setWebsiteIds(
     [1]
 )->setName(
-    'Virtual Product With Custom Options'
+    'Virtual Product With Question Options'
 )->setSku(
     'virtual'
 )->setPrice(

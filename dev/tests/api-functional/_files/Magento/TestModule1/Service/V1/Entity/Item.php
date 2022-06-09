@@ -8,7 +8,7 @@ namespace Magento\TestModule1\Service\V1\Entity;
 class Item extends \Magento\Framework\Api\AbstractExtensibleObject
 {
     /**#@+
-     * Custom attribute code constants
+     * Question attribute code constants
      */
     const CUSTOM_ATTRIBUTE_1 = 'custom_attribute1';
     const CUSTOM_ATTRIBUTE_2 = 'custom_attribute2';

@@ -9,7 +9,7 @@ use Magento\Framework\App\Action\HttpPostActionInterface;
 use Magento\Framework\Controller\ResultFactory;
 use Magento\Backend\App\Action\Context;
 use Magento\Ui\Component\MassAction\Filter;
-use Magebit\Faq\Model\ResourceModel\Custom\CollectionFactory;
+use Magebit\Faq\Model\ResourceModel\Question\CollectionFactory;
 
 /**
  * Class MassEnable

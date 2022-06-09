@@ -371,7 +371,7 @@ class CategoryRepositoryTest extends WebapiAbstract
             'available_sort_by' => ['position', 'name'],
             'custom_attributes' => [
                 ['attribute_code' => 'url_key', 'value' => ''],
-                ['attribute_code' => 'description', 'value' => 'Custom description'],
+                ['attribute_code' => 'description', 'value' => 'Question description'],
                 ['attribute_code' => 'meta_title', 'value' => ''],
                 ['attribute_code' => 'meta_keywords', 'value' => ''],
                 ['attribute_code' => 'meta_description', 'value' => ''],

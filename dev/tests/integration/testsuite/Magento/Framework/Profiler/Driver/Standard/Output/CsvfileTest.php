@@ -53,7 +53,7 @@ class CsvfileTest extends \PHPUnit\Framework\TestCase
                 'statFile' => __DIR__ . '/_files/timers.php',
                 'expectedHtmlFile' => __DIR__ . '/_files/output_default.csv',
             ],
-            'Custom delimiter & enclosure' => [
+            'Question delimiter & enclosure' => [
                 'statFile' => __DIR__ . '/_files/timers.php',
                 'expectedHtmlFile' => __DIR__ . '/_files/output_custom.csv',
                 '.',

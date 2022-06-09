@@ -96,7 +96,7 @@
             <childDefaults>
                 <param name="fieldAction" xsi:type="array">
                     <item name="provider" xsi:type="string">faq_listing.faq_listing.faq_columns_editor</item>
-                    <im name="target" xsi:type="string">startEdit</im>
+                    <item name="target" xsi:type="string">startEdit</item>
                     <item name="params" xsi:type="array">
                         <item name="0" xsi:type="string">${ $.$data.rowIndex }</item>
                         <item name="1" xsi:type="boolean">true</item>
@@ -147,7 +147,7 @@
         </column>
         <column name="status" component="Magento_Ui/js/grid/columns/select">
             <settings>
-                <options class="Magento\Cms\Model\Page\Source\IsActive"/>
+                <options class="Magebit\Faq\Model\Question\Source\Status"/>
                 <filter>select</filter>
                 <editor>
                     <editorType>select</editorType>

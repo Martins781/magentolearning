@@ -146,7 +146,7 @@ class FilterTest extends \PHPUnit\Framework\TestCase
             'custom parameter' => [
                 'frontend',
                 'handle="email_template_test_handle" template="Magento_Email::sample_email_content_custom.phtml"',
-                '<strong>Custom Email content for frontend/Magento/default theme</strong>',
+                '<strong>Question Email content for frontend/Magento/default theme</strong>',
             ],
         ];
         return $result;

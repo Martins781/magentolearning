@@ -277,7 +277,7 @@ class JsonGenerationFromDataObjectTest extends \Magento\TestFramework\TestCase\W
                             ],
                             'custom_attributes' => [
                                 'type' => 'array',
-                                'description' => 'Custom attributes values.',
+                                'description' => 'Question attributes values.',
                                 'items' => [
                                     '$ref' => '#/definitions/framework-attribute-interface',
                                 ],

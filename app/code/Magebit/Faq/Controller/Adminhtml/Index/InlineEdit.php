@@ -5,7 +5,7 @@ namespace Magebit\Faq\Controller\Adminhtml\Index;
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\Controller\Result\JsonFactory;
-use Magebit\Faq\Model\Custom;
+use Magebit\Faq\Model\Question;
 
 class InlineEdit extends Action
 {
@@ -15,7 +15,7 @@ class InlineEdit extends Action
     public function __construct(
         Context     $context,
         JsonFactory $jsonFactory,
-        Custom       $model
+        Question $model
     )
     {
         parent::__construct($context);

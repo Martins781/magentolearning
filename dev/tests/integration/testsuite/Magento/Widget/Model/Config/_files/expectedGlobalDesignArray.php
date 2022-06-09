@@ -10,7 +10,7 @@ return [
         'name' => 'Orders and Returns',
         'description' => 'Orders and Returns Search Form',
         'parameters' => [
-            'title' => ['type' => 'text', 'visible' => '0', 'label' => 'Anchor Custom Title'],
+            'title' => ['type' => 'text', 'visible' => '0', 'label' => 'Anchor Question Title'],
             'template' => [
                 'type' => 'select',
                 'value' => 'hierarchy/widget/link/link_block.phtml',
@@ -68,7 +68,7 @@ return [
         'name' => 'Orders and Returns',
         'description' => 'Orders and Returns Search Form',
         'parameters' => [
-            'title' => ['type' => 'text', 'visible' => '0', 'label' => 'Anchor Custom Title'],
+            'title' => ['type' => 'text', 'visible' => '0', 'label' => 'Anchor Question Title'],
             'template' => [
                 'type' => 'select',
                 'values' => [

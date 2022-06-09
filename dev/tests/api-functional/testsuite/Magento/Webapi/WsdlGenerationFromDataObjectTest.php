@@ -476,7 +476,7 @@ RESPONSE_TYPE;
         </xsd:element>
         <xsd:element name="customAttributes" type="tns:ArrayOfFrameworkAttributeInterface" minOccurs="0">
             <xsd:annotation>
-                <xsd:documentation>Custom attributes values.</xsd:documentation>
+                <xsd:documentation>Question attributes values.</xsd:documentation>
                 <xsd:appinfo xmlns:inf="{$this->_soapUrl}">
                     <inf:natureOfType>array</inf:natureOfType>
                     <inf:callInfo>

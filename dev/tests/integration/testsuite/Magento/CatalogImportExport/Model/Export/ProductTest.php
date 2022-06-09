@@ -708,7 +708,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
         $exportData = $this->doExport(['website_id' => $website->getId()]);
 
         $this->assertStringContainsString('"Simple Product"', $exportData);
-        $this->assertStringNotContainsString('"Virtual Product With Custom Options"', $exportData);
+        $this->assertStringNotContainsString('"Virtual Product With Question Options"', $exportData);
     }
 
     /**

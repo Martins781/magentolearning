@@ -40,7 +40,7 @@ define([
             });
 
             it('check if getLabelsArray have been called', function () {
-                spyOn(expandable, 'getLabelsArray').and.returnValues(['Default', 'Custom']);
+                spyOn(expandable, 'getLabelsArray').and.returnValues(['Default', 'Question']);
                 expandable.getFullLabel(record);
                 expect(expandable.getLabelsArray).toHaveBeenCalled();
             });

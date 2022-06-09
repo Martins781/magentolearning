@@ -38,15 +38,15 @@ class UpgradeSchema implements UpgradeSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['identity' => true, 'unsigned' => true, 'nullable' => false, 'primary' => true],
-                'Custom Id'
+                'Question Id'
             )->addColumn(
                 'name',
                 \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
                 255,
                 [],
-                'Custom Name'
+                'Question Name'
             )->setComment(
-                'Custom Table'
+                'Question Table'
             );
             $setup->getConnection()->createTable($table);
         }

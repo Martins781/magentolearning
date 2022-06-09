@@ -4,7 +4,7 @@
     <virtualType name="Magebit\Faq\Model\ResourceModel\Grid\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
         <arguments>
             <argument name="mainTable" xsi:type="string">magebit_faq</argument>
-            <argument name="resourceModel" xsi:type="string">Magebit\Faq\Model\ResourceModel\Custom</argument>
+            <argument name="resourceModel" xsi:type="string">Magebit\Faq\Model\ResourceModel\Question</argument>
         </arguments>
     </virtualType>
 

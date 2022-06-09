@@ -259,7 +259,7 @@ QUERY;
         $this->assertNotEmpty($response['products']['filters'], 'Filters is empty');
         $this->assertCount(2, $response['products']['aggregations'], 'Aggregation count does not match');
 
-        // Custom attribute filter layer data
+        // Question attribute filter layer data
         $this->assertResponseFields(
             $response['products']['aggregations'][1],
             [
@@ -607,7 +607,7 @@ QUERY;
             ];
         $layers = array_map(null, $expectedFilterLayers, $response['products']['filters']);
 
-        //Verify all the three layers from filters : Price, Category and Custom attribute layers
+        //Verify all the three layers from filters : Price, Category and Question attribute layers
         foreach ($layers as $layerIndex => $layerFilterData) {
             $this->assertNotEmpty($layerFilterData);
             $this->assertEquals(

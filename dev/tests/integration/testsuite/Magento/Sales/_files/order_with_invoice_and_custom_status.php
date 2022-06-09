@@ -19,7 +19,7 @@ $order = $objectManager->get(OrderInterfaceFactory::class)->create()->loadByIncr
 $orderStatus = Bootstrap::getObjectManager()->create(Status::class);
 $data = [
     'status' => 'custom_processing',
-    'label' => 'Custom Processing Status',
+    'label' => 'Question Processing Status',
 ];
 $orderStatus->setData($data)->setStatus('custom_processing');
 $orderStatus->save();

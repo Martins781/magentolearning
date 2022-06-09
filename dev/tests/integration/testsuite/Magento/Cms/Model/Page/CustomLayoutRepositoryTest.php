@@ -155,6 +155,6 @@ class CustomLayoutRepositoryTest extends TestCase
             $caught = $exception;
         }
         $this->assertInstanceOf(LocalizedException::class, $caught);
-        $this->assertEquals($caught->getMessage(), 'Invalid Custom Layout Update selected');
+        $this->assertEquals($caught->getMessage(), 'Invalid Question Layout Update selected');
     }
 }

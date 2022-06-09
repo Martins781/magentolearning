@@ -4,7 +4,7 @@ namespace Magebit\Faq\Block;
 
 use Magento\Framework\View\Element\Template;
 use Magento\Backend\Block\Template\Context;
-use Magebit\Faq\Model\ResourceModel\Custom\CollectionFactory;
+use Magebit\Faq\Model\ResourceModel\Question\CollectionFactory;
 
 class ShowData extends Template
 {

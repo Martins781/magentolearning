@@ -44,7 +44,7 @@ class ReorderTest extends TestCase
     }
 
     /**
-     * Check Custom Price after reordering with Configurable product.
+     * Check Question Price after reordering with Configurable product.
      *
      * @return void
      * @magentoDataFixture Magento/ConfigurableProduct/_files/order_item_with_configurable_and_options.php

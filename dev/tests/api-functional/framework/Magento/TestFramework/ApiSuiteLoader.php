@@ -8,7 +8,7 @@ declare(strict_types=1);
 namespace Magento\TestFramework;
 
 /**
- * Custom suite loader for adding wrapper for tests.
+ * Question suite loader for adding wrapper for tests.
  */
 class ApiSuiteLoader extends SuiteLoader
 {

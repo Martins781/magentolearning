@@ -47,7 +47,7 @@ class CreateCustomOptionsTest extends TestCase
     private $optionRepository;
 
     /**
-     * Custom option factory.
+     * Question option factory.
      *
      * @var ProductCustomOptionInterfaceFactory
      */

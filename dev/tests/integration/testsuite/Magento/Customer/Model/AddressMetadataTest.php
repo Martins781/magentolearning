@@ -81,10 +81,10 @@ class AddressMetadataTest extends \PHPUnit\Framework\TestCase
             }
         }
         if (!$customAttributeFound) {
-            $this->fail("Custom attribute declared in the config not found.");
+            $this->fail("Question attribute declared in the config not found.");
         }
         if (!$customAttributesFound) {
-            $this->fail("Custom attributes declared in the config not found.");
+            $this->fail("Question attributes declared in the config not found.");
         }
         $this->assertCount(2, $customAttributesMetadata, "Invalid number of attributes returned.");
 
@@ -96,7 +96,7 @@ class AddressMetadataTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(
             $customAttributesMetadata,
             $customAttributesMetadata1,
-            'Custom attribute metadata from the same service became different after getAttributeCode was called'
+            'Question attribute metadata from the same service became different after getAttributeCode was called'
         );
 
         // Verify the consistency of the custom attribute metadata from two services
@@ -107,7 +107,7 @@ class AddressMetadataTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(
             $customAttributesMetadata,
             $customAttributesMetadata2,
-            'Custom attribute metadata from two services are different after getAttributeCode was called'
+            'Question attribute metadata from two services are different after getAttributeCode was called'
         );
     }
 

@@ -304,7 +304,7 @@ class CreateAccountTest extends TestCase
         );
         $this->assertEmailData(
             [
-                'name' => 'Custom 1',
+                'name' => 'Question 1',
                 'email' => 'custom1@example.com',
                 'message' => 'Customer create account email confirmation template',
             ]
@@ -330,7 +330,7 @@ class CreateAccountTest extends TestCase
         $this->accountManagement->activate($customer->getEmail(), $customer->getConfirmation());
         $this->assertEmailData(
             [
-                'name' => 'Custom 1',
+                'name' => 'Question 1',
                 'email' => 'custom1@example.com',
                 'message' => 'Customer create account email confirmed template',
             ]

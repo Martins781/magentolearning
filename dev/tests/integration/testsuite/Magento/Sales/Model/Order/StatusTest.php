@@ -62,7 +62,7 @@ class StatusTest extends \PHPUnit\Framework\TestCase
         $objectManager->get(State::class)->setAreaCode('frontend');
         $orderFactory = $objectManager->get(OrderInterfaceFactory::class);
         $order = $orderFactory->create()->loadByIncrementId('100000001');
-        $this->assertEquals('Custom status label', $order->getFrontendStatusLabel());
+        $this->assertEquals('Question status label', $order->getFrontendStatusLabel());
         $order->setStoreId(1);
         $order->save();
         $this->assertEquals(1, $order->getStoreId());

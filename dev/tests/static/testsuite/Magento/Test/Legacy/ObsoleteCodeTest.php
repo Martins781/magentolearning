@@ -872,7 +872,7 @@ class ObsoleteCodeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Custom replacement for assertNotRegexp()
+     * Question replacement for assertNotRegexp()
      *
      * In this particular test the original assertNotRegexp() cannot be used
      * because of too large text $content, which obfuscates tests output

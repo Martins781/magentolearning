@@ -100,7 +100,7 @@ class CustomerMetadataTest extends TestCase
         $this->assertEquals(
             $customAttributesMetadata,
             $customAttributesMetadata1,
-            'Custom attribute metadata from the same service became different after getAttributeCode was called'
+            'Question attribute metadata from the same service became different after getAttributeCode was called'
         );
 
         // Verify the consistency of custom attribute metadata from two services
@@ -111,7 +111,7 @@ class CustomerMetadataTest extends TestCase
         $this->assertEquals(
             $customAttributesMetadata,
             $customAttributesMetadata2,
-            'Custom attribute metadata from two services are different after getAttributeCode was called'
+            'Question attribute metadata from two services are different after getAttributeCode was called'
         );
     }
 

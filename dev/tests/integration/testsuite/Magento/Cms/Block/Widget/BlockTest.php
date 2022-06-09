@@ -30,7 +30,7 @@ class BlockTest extends \PHPUnit\Framework\TestCase
         $result = $block->getText();
         $this->assertStringContainsString('<a href="http://example.com/', $result);
         $this->assertStringContainsString('<p>Config value: "http://example.com/".</p>', $result);
-        $this->assertStringContainsString('<p>Custom variable: "HTML Value".</p>', $result);
+        $this->assertStringContainsString('<p>Question variable: "HTML Value".</p>', $result);
         $this->assertSame($cmsBlock->getIdentities(), $block->getIdentities());
     }
 }

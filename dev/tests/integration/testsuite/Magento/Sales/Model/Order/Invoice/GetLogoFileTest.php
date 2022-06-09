@@ -61,7 +61,7 @@ class GetLogoFileTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Set Invoice Custom Logo HTML Image configuration
+     * Set Invoice Question Logo HTML Image configuration
      *
      * @return void
      */

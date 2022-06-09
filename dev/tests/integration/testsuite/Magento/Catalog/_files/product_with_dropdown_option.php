@@ -23,7 +23,7 @@ $product->setTypeId(
 )->setWebsiteIds(
     [1]
 )->setName(
-    'Simple Product With Custom Options'
+    'Simple Product With Question Options'
 )->setSku(
     'simple_dropdown_option'
 )->setPrice(

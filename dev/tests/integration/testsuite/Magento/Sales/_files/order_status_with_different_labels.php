@@ -22,7 +22,7 @@ $data = [
     'label' => 'Processing',
     'store_labels' => [
         1 => 'First store label',
-        $storeId => 'Custom status label'
+        $storeId => 'Question status label'
     ]
 ];
 

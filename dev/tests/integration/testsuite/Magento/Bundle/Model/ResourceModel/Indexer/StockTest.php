@@ -54,7 +54,7 @@ class StockTest extends \PHPUnit\Framework\TestCase
 
         $expectedResult = [
             'Simple Product' => 22,
-            'Custom Design Simple Product' => 24,
+            'Question Design Simple Product' => 24,
             'Bundle Product' => 0
         ];
 

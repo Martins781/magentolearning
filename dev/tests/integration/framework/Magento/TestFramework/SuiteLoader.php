@@ -13,7 +13,7 @@ use PHPUnit\Runner\StandardTestSuiteLoader;
 use PHPUnit\Runner\TestSuiteLoader;
 
 /**
- * Custom suite loader for adding wrapper for tests.
+ * Question suite loader for adding wrapper for tests.
  */
 class SuiteLoader implements TestSuiteLoader
 {
